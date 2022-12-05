@@ -1,0 +1,205 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Alghoritms_1_sem
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Alghoritms_1_sem
+
+
+#############################################
+# Order-only phony target for Alghoritms_1_sem
+
+build cmake_object_order_depends_target_Alghoritms_1_sem: phony || CMakeFiles/Alghoritms_1_sem.dir
+
+build CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/main.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/insert_digit.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/insertion_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/expedition.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/bibliotek_method.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/results_of_olimpiad.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/merge_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/same_massives.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/fence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/anti_quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/k-th_order_statistic.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Alghoritms_1_sem
+
+
+#############################################
+# Link the executable Alghoritms_1_sem
+
+build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Alghoritms_1_sem
+  TARGET_PDB = Alghoritms_1_sem.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem -B/Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug
+
+build all: phony Alghoritms_1_sem
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

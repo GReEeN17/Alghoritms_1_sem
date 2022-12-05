@@ -1,15 +1,17 @@
 # ninja log v5
 0	459	1670277977327786959	CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o	94665fd53e516084
-1	260	1670278339710659124	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o	475267cf9998e945
 1	287	1670278323982186525	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o	ab3456d310ea67cb
 1	454	1670277977324759175	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o	3158941634fc60b9
+1	252	1670278455002186146	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o	e11654d14db4f2a9
 1	460	1670277977327801876	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o	e9c30cabeca357f4
 0	459	1670277977327673747	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o	e770dc6cfd6f2359
-1	460	1670277977327873836	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o	2f4f623efc3ebd35
 1	254	1670278093967801942	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o	ff2f369e5895d4a6
-1	253	1670278046562154799	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o	76e3c966ca6df97d
-287	322	1670278324018879395	Alghoritms_1_sem	868a4a384e72849a
-1	308	1670278259598631075	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o	b1034a913fe798e4
 2	246	1670278454995305475	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o	6e1e3ead0b905f31
-1	252	1670278455002186146	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o	e11654d14db4f2a9
+1	253	1670278046562154799	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o	76e3c966ca6df97d
 252	287	1670278455038666261	Alghoritms_1_sem	77abbe9036fc1b1a
+1	460	1670277977327873836	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o	2f4f623efc3ebd35
+1	308	1670278259598631075	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o	b1034a913fe798e4
+1	260	1670278339710659124	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o	475267cf9998e945
+1	247	1670278790047207492	CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o	6e1e3ead0b905f31
+2	256	1670278790055766955	CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o	81c47aa61738ded9
+256	291	1670278790092443783	Alghoritms_1_sem	9314b66adf72afd3

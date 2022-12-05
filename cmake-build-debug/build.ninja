@@ -118,6 +118,12 @@ build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o: CXX_COMP
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/queue.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Alghoritms_1_sem
@@ -126,7 +132,7 @@ build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o: CXX_COMP
 #############################################
 # Link the executable Alghoritms_1_sem
 
-build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o
+build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   POST_BUILD = :

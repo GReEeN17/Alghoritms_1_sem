@@ -3,4 +3,4 @@ project(Alghoritms_1_sem)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Alghoritms_1_sem main.cpp LAB_2/insert_digit.cpp LAB_2/insertion_sort.cpp LAB_2/expedition.cpp LAB_2/bibliotek_method.cpp LAB_2/results_of_olimpiad.cpp LAB_2/merge_sort.cpp LAB_2/same_massives.cpp LAB_2/fence.cpp LAB_2/quick_sort.cpp LAB_2/anti_quick_sort.cpp LAB_2/k-th_order_statistic.cpp LAB_3/queue.cpp LAB_3/stack.cpp LAB_3/correct_bracket_sequence.cpp LAB_3/postfix_notatation.cpp LAB_3/maxstack.cpp LAB_3/binary_search.cpp LAB_3/garland.cpp LAB_3/array_crushing.cpp)
+add_executable(Alghoritms_1_sem main.cpp LAB_2/insert_digit.cpp LAB_2/insertion_sort.cpp LAB_2/expedition.cpp LAB_2/bibliotek_method.cpp LAB_2/results_of_olimpiad.cpp LAB_2/merge_sort.cpp LAB_2/same_massives.cpp LAB_2/fence.cpp LAB_2/quick_sort.cpp LAB_2/anti_quick_sort.cpp LAB_2/k-th_order_statistic.cpp LAB_3/queue.cpp LAB_3/stack.cpp LAB_3/correct_bracket_sequence.cpp LAB_3/postfix_notatation.cpp LAB_3/maxstack.cpp LAB_3/binary_search.cpp LAB_3/garland.cpp LAB_3/array_crushing.cpp LAB_4/is_it_a_pyramid.cpp LAB_4/pyramid_sort.cpp LAB_4/priority_queue.cpp LAB_4/radix_sort.cpp)

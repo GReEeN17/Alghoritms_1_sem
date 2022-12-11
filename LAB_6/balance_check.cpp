@@ -7,7 +7,7 @@ void balance(int mas[][3], int height[], int n) {
     }
 }
 
-int main() {
+int balance_check() {
     int n;
     cin >> n;
     int mas[n][3];

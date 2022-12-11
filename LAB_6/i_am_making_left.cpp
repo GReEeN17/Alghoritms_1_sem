@@ -5,7 +5,7 @@ void leftLittle (int mas[][3], int n) {
     
 }
 
-int main() {
+int making_left() {
     int n;
     cin >> n;
     int mas[n][3];

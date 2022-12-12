@@ -111,7 +111,7 @@ struct listTFC {
     }
 };
 
-int main() {
+int TFC() {
     int n;
     cin >> n;
     listTFC li;

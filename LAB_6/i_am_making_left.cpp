@@ -83,7 +83,7 @@ void preOrderTraversalML (nodeMl* gap_root) {
 }
 
 
-int main() {
+int left_rotation() {
     int n;
     cin >> n;
     if (n == 0) {

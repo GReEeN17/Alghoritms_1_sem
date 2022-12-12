@@ -107,7 +107,7 @@ void preOrderTraversalIT (nodeIT* gap_root) {
 }
 
 
-int main() {
+int insert_in_avl() {
     int n;
     cin >> n;
     if (n == 0) {

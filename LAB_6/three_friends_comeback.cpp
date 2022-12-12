@@ -3,138 +3,145 @@ using namespace std;
 
 struct nodeTFC {
     string val;
+    int grade;
+    int count;
     unsigned char height;
-    int grade = 3;
-    int count = 1;
-    nodeTFC* left;
-    nodeTFC* right;
-    nodeTFC(string v) { val = v; left = right = nullptr; height = 1; }
+    nodeTFC* left = nullptr;
+    nodeTFC* right = nullptr;
 };
 
+unsigned char heightTFC(nodeTFC* p)
+{
+    return p?p->height:0;
+}
 
-struct listTFC {
-    nodeTFC* root = nullptr;
+int bfactorTFC(nodeTFC* p)
+{
+    return heightTFC(p->right)-heightTFC(p->left);
+}
 
-    unsigned char height(nodeTFC* p) {
-        return p ? p->height : 0;
+void fixheightTFC(nodeTFC* p)
+{
+    unsigned char hl = heightTFC(p->left);
+    unsigned char hr = heightTFC(p->right);
+    p->height = (hl>hr?hl:hr)+1;
+}
+
+nodeTFC* rotaterightTFC(nodeTFC* p)
+{
+    nodeTFC* q = p->left;
+    p->left = q->right;
+    q->right = p;
+    fixheightTFC(p);
+    fixheightTFC(q);
+    return q;
+}
+
+nodeTFC* rotateleftTFC(nodeTFC* q)
+{
+    nodeTFC* p = q->right;
+    q->right = p->left;
+    p->left = q;
+    fixheightTFC(q);
+    fixheightTFC(p);
+    return p;
+}
+
+nodeTFC* balanceTFC(nodeTFC* p)
+{
+    fixheightTFC(p);
+    if( bfactorTFC(p)==2 )
+    {
+        if( bfactorTFC(p->right) < 0 )
+            p->right = rotaterightTFC(p->right);
+        return rotateleftTFC(p);
     }
-
-    int bFactor(nodeTFC* p) {
-        return height(p->right) - height(p->left);
+    if( bfactorTFC(p)==-2 )
+    {
+        if( bfactorTFC(p->left) > 0  )
+            p->left = rotateleftTFC(p->left);
+        return rotaterightTFC(p);
     }
+    return p;
+}
 
-    void fixHeight(nodeTFC* p) {
-        unsigned char hl = height(p->left);
-        unsigned char hr = height(p->right);
-        p->height = (hl > hr ? hl : hr) + 1;
+nodeTFC* insertTFC(nodeTFC* p, string k)
+{
+    if( !p ) {
+        nodeTFC* gap_node = new nodeTFC;
+        gap_node->val = k;
+        gap_node->height = 1;
+        gap_node->count = 1;
+        gap_node->grade = 3;
+        return gap_node;
     }
+    if( k<p->val)
+        p->left = insertTFC(p->left,k);
+    else
+        p->right = insertTFC(p->right,k);
+    return balanceTFC(p);
+}
 
-    nodeTFC* rotateRight(nodeTFC* p) {
-        nodeTFC* q = p->left;
-        q->left = p->right;
-        q->right = p;
-        fixHeight(p);
-        fixHeight(q);
-        return q;
+nodeTFC* exists(string val, nodeTFC* gap_root) {
+    if (gap_root == nullptr || gap_root->val == val) {
+        return gap_root;
+    } else if (gap_root->val > val) {
+        return exists(val, gap_root->left);
+    } else {
+        return exists(val, gap_root->right);
     }
+}
 
-    nodeTFC* rotateLeft(nodeTFC* q) {
-        nodeTFC* p = q->right;
-        q->right = p->left;
-        p->left = q;
-        fixHeight(q);
-        fixHeight(p);
-        return p;
-    }
-
-    nodeTFC* balance(nodeTFC* p) {
-        fixHeight(p);
-        if (bFactor(p) == 2) {
-            if (bFactor(p->right) < 0) {
-                p->right = rotateRight(p->right);
-            }
-            return rotateLeft(p);
+nodeTFC* checkInsertTFC (nodeTFC* gap_root, string k) {
+    nodeTFC* newNode = exists(k, gap_root);
+    if (newNode != nullptr) {
+        if (newNode->count == 1) {
+            newNode->count++;
+            newNode->grade = 1;
+        } else if (newNode->count == 2) {
+            newNode->count++;
+            newNode->grade = 0;
         }
-        if (bFactor(p) == -2) {
-            if (bFactor(p->left) > 0) {
-                p->left = rotateLeft(p->left);
-            }
-            return rotateRight(p);
-        }
-        return p;
+        return gap_root;
+    } else {
+        return insertTFC(gap_root, k);
     }
+}
 
-    nodeTFC* insert(nodeTFC* p, string k) {
-        if (!p) return new nodeTFC(k);
-        if (k < p->val) {
-            p->left = insert(p->left, k);
-        } else {
-            p->right = insert(p->right, k);
-        }
-        return balance(p);
+int summary(string mas[], int n, nodeTFC* root) {
+    int res = 0;
+    nodeTFC* help_node;
+    for (int i = 0; i < n; i++) {
+        help_node = exists(mas[i], root);
+        res += help_node->grade;
     }
+    return res;
+}
 
-    nodeTFC* exists(string val, nodeTFC* gap_root) {
-        if (gap_root == nullptr || gap_root->val == val) {
-            return gap_root;
-        } else if (gap_root->val > val) {
-            return exists(val, gap_root->left);
-        } else {
-            return exists(val, gap_root->right);
-        }
-    }
-
-    nodeTFC* insertCheck (nodeTFC* q, string k) {
-        nodeTFC* newNode = exists(k, root);
-        if (newNode != nullptr) {
-            if (newNode->count == 1) {
-                newNode->count = 2;
-                newNode->grade = 1;
-            } else if (newNode->count == 2) {
-                newNode->count = 3;
-                newNode->grade = 0;
-            }
-            return root;
-        } else {
-            return insert(root, k);
-        }
-    }
-
-    int summary(string mas[], int n) {
-        int res = 0;
-        nodeTFC* help_node;
-        for (int i = 0; i < n; i++) {
-            help_node = exists(mas[i], root);
-            res += help_node->grade;
-        }
-        return res;
-    }
-};
-
-int TFC() {
+int three_friends_comeback() {
     int n;
     cin >> n;
-    listTFC li;
-    string mas_1[n];
-    string mas_2[n];
-    string mas_3[n];
+    string fir_mas[n];
+    string sec_mas[n];
+    string thi_mas[n];
     string temp;
+    nodeTFC* root = nullptr;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < n; j++) {
             cin >> temp;
-            li.root = li.insertCheck(li.root, temp);
+            root = checkInsertTFC(root, temp);
             if (i == 0) {
-                mas_1[j] = temp;
+                fir_mas[j] = temp;
             } else if (i == 1) {
-                mas_2[j] = temp;
+                sec_mas[j] = temp;
             } else {
-                mas_3[j] = temp;
+                thi_mas[j] = temp;
             }
         }
     }
-    int fir = li.summary(mas_1, n);
-    int sec = li.summary(mas_2, n);
-    int thi = li.summary(mas_3, n);
-    cout << fir << " " << sec << " " << thi;
+    int sum_fir = summary(fir_mas, n, root);
+    int sum_sec = summary(sec_mas, n, root);
+    int sum_thi = summary(thi_mas, n, root);
+    cout << sum_fir << " " << sum_sec << " " << sum_thi;
     return 0;
 }

@@ -36,7 +36,7 @@ void updateFC(int tree[], int v, int L, int R, int i, int x) {
 }
 
 
-int main() {
+int feeding_cats() {
     int n, q;
     cin >> n >> q;
     if (n == 0) {

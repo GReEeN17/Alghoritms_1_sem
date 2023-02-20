@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug/
+cmake_ninja_workdir = /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Alghoritms_1_sem
 
@@ -46,227 +46,239 @@ cmake_ninja_workdir = /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_s
 
 build cmake_object_order_depends_target_Alghoritms_1_sem: phony || CMakeFiles/Alghoritms_1_sem.dir
 
-build CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/main.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/main.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/insert_digit.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/insert_digit.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/insertion_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/insertion_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/expedition.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/expedition.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/bibliotek_method.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/bibliotek_method.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/results_of_olimpiad.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/results_of_olimpiad.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/merge_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/merge_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/same_massives.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/same_massives.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/fence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/fence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/anti_quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/anti_quick_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_2/k-th_order_statistic.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_2/k-th_order_statistic.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_2
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/queue.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/queue.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/stack.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/stack.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/stack.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/stack.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/stack.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/correct_bracket_sequence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/correct_bracket_sequence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/correct_bracket_sequence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/correct_bracket_sequence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/correct_bracket_sequence.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/postfix_notatation.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/postfix_notatation.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/postfix_notatation.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/postfix_notatation.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/postfix_notatation.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/maxstack.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/maxstack.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/maxstack.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/maxstack.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/maxstack.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/binary_search.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/binary_search.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/binary_search.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/binary_search.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/binary_search.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/garland.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/garland.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/garland.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/garland.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/garland.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/array_crushing.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_3/array_crushing.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_3/array_crushing.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_3/array_crushing.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_3/array_crushing.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_3
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/is_it_a_pyramid.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_4/is_it_a_pyramid.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/is_it_a_pyramid.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_4/is_it_a_pyramid.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_4/is_it_a_pyramid.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_4
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/pyramid_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_4/pyramid_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/pyramid_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_4/pyramid_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_4/pyramid_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_4
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/priority_queue.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_4/priority_queue.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/priority_queue.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_4/priority_queue.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_4/priority_queue.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_4
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/radix_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_4/radix_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_4/radix_sort.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_4/radix_sort.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_4/radix_sort.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_4
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_height.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/tree_height.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_height.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/tree_height.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_height.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/validation.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/validation.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/validation.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/validation.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/validation.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_filling.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/tree_filling.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_filling.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/tree_filling.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_filling.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/simple_binary_search_tree.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/simple_binary_search_tree.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/simple_binary_search_tree.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/simple_binary_search_tree.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/simple_binary_search_tree.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/three_friends.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/three_friends.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/three_friends.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/three_friends.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/three_friends.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/two_rounds.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_5/two_rounds.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_5/two_rounds.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_5/two_rounds.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_5/two_rounds.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_5
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/balance_check.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/balance_check.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/balance_check.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/balance_check.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/balance_check.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/i_am_making_left.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/i_am_making_left.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/i_am_making_left.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/i_am_making_left.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/i_am_making_left.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/three_friends_comeback.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/three_friends_comeback.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/three_friends_comeback.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/three_friends_comeback.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/three_friends_comeback.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/freeing_telphone.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/freeing_telphone.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/freeing_telphone.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/freeing_telphone.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/freeing_telphone.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/insert_in_avl_tree.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/insert_in_avl_tree.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/insert_in_avl_tree.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/insert_in_avl_tree.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/insert_in_avl_tree.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/ordered_set_avl.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/ordered_set_avl.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/ordered_set_avl.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/ordered_set_avl.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/ordered_set_avl.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
 
-build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/LAB_6/feeding_cats.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_6/feeding_cats.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
   DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_6
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_7/largest_ascending_sequence.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_7/largest_ascending_sequence.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_7/largest_ascending_sequence.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_7
+
+build CMakeFiles/Alghoritms_1_sem.dir/LAB_8/message.cpp.o: CXX_COMPILER__Alghoritms_1_sem_Debug /Users/azelen/Desktop/Уник/1$ семестр/Алгосы/Alghoritms_1_sem/LAB_8/message.cpp || cmake_object_order_depends_target_Alghoritms_1_sem
+  DEP_FILE = CMakeFiles/Alghoritms_1_sem.dir/LAB_8/message.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
+  OBJECT_FILE_DIR = CMakeFiles/Alghoritms_1_sem.dir/LAB_8
 
 
 # =============================================================================
@@ -276,8 +288,8 @@ build CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o: CXX_COMPILER__Al
 #############################################
 # Link the executable Alghoritms_1_sem
 
-build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/stack.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/correct_bracket_sequence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/postfix_notatation.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/maxstack.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/binary_search.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/garland.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/array_crushing.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/is_it_a_pyramid.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/pyramid_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/priority_queue.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/radix_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_height.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/validation.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_filling.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/simple_binary_search_tree.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/three_friends.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/two_rounds.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/balance_check.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/i_am_making_left.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/three_friends_comeback.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/freeing_telphone.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/insert_in_avl_tree.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/ordered_set_avl.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles/Alghoritms_1_sem.dir/main.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insert_digit.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/insertion_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/expedition.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/bibliotek_method.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/results_of_olimpiad.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/merge_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/same_massives.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/fence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/anti_quick_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_2/k-th_order_statistic.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/queue.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/stack.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/correct_bracket_sequence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/postfix_notatation.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/maxstack.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/binary_search.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/garland.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_3/array_crushing.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/is_it_a_pyramid.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/pyramid_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/priority_queue.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_4/radix_sort.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_height.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/validation.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/tree_filling.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/simple_binary_search_tree.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/three_friends.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_5/two_rounds.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/balance_check.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/i_am_making_left.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/three_friends_comeback.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/freeing_telphone.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/insert_in_avl_tree.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/ordered_set_avl.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_6/feeding_cats.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_7/largest_ascending_sequence.cpp.o CMakeFiles/Alghoritms_1_sem.dir/LAB_8/message.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Alghoritms_1_sem.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -289,7 +301,7 @@ build Alghoritms_1_sem: CXX_EXECUTABLE_LINKER__Alghoritms_1_sem_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/azelen/Desktop/Уник/1 семестр/Алгосы/Alghoritms_1_sem/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -300,7 +312,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem -B/Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug
+  COMMAND = cd "/Users/azelen/Desktop/Уник/1 семестр/Алгосы/Alghoritms_1_sem/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/azelen/Desktop/Уник/1 семестр/Алгосы/Alghoritms_1_sem" -B"/Users/azelen/Desktop/Уник/1 семестр/Алгосы/Alghoritms_1_sem/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -316,7 +328,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/azelen/Desktop/Уник/Алгосы/Alghoritms_1_sem/cmake-build-debug
+# Folder: /Users/azelen/Desktop/Уник/1 семестр/Алгосы/Alghoritms_1_sem/cmake-build-debug
 
 build all: phony Alghoritms_1_sem
 

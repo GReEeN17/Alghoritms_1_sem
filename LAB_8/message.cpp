@@ -39,7 +39,7 @@ int mistakes (std::string fir, std::string sec) {
     return mistake;
 }
 
-int main() {
+int message() {
     int n, m, k;
     std::string fir, sec;
     std::cin >> n >> m >> k >> fir >> sec;

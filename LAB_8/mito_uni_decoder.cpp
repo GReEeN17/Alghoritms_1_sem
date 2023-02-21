@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main() {
+int mito_decoder() {
     int k;
     std::cin >> k;
     std::string mas[k];

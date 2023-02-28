@@ -55,32 +55,33 @@ int main() {
         cin >> temp;
         coeff_node* root_node = vertexes_coeff[temp - 1];
         coeff_node* parent;
-        if (root_node->parent != nullptr) {
-            parent = root_node->parent;
-            if (root_node->parent->left == root_node) {
-                parent->left = root_node->left;
-                if (root_node->left != nullptr) root_node->left->parent = parent;
-                root_node->left = parent;
-                root_node->parent = parent->parent;
-                parent->parent = root_node;
-                if (root_node->parent != nullptr) {
-                    if (root_node->parent->left == parent) root_node->parent->left = root_node;
-                    if (root_node->parent->right == parent) root_node->parent->right = root_node;
-                }
-            } else if (root_node->parent->right == root_node) {
-                parent->right = root_node->right;
-                if (root_node->right != nullptr) root_node->right->parent = parent;
-                root_node->right = parent;
-                root_node->parent = parent->parent;
-                parent->parent = root_node;
-                if (root_node->parent != nullptr) {
-                    if (root_node->parent->left == parent) root_node->parent->left = root_node;
-                    else if (root_node->parent->right == parent) root_node->parent->right = root_node;
-                }
+        if (root_node->parent == nullptr) {
+            continue;
+        }
+        parent = root_node->parent;
+        if (root_node->parent->left == root_node) {
+            parent->left = root_node->left;
+            if (root_node->left != nullptr) root_node->left->parent = parent;
+            root_node->left = parent;
+            root_node->parent = parent->parent;
+            parent->parent = root_node;
+            if (root_node->parent != nullptr) {
+                if (root_node->parent->left == parent) root_node->parent->left = root_node;
+                if (root_node->parent->right == parent) root_node->parent->right = root_node;
             }
-            if (parent == root_coeff) {
-                root_coeff = root_node;
+        } else if (root_node->parent->right == root_node) {
+            parent->right = root_node->right;
+            if (root_node->right != nullptr) root_node->right->parent = parent;
+            root_node->right = parent;
+            root_node->parent = parent->parent;
+            parent->parent = root_node;
+            if (root_node->parent != nullptr) {
+                if (root_node->parent->left == parent) root_node->parent->left = root_node;
+                else if (root_node->parent->right == parent) root_node->parent->right = root_node;
             }
+        }
+        if (parent == root_coeff) {
+            root_coeff = root_node;
         }
     }
     int n_symb, q_2_symb;
@@ -104,32 +105,33 @@ int main() {
         cin >> temp;
         symb_node* s_node = vertexes_symb[temp - 1];
         symb_node* parent;
-        if (s_node->parent != nullptr) {
-            parent = s_node->parent;
-            if (s_node->parent->left == s_node) {
-                parent->left = s_node->left;
-                if (s_node->left != nullptr) s_node->left->parent = parent;
-                s_node->left = parent;
-                s_node->parent = parent->parent;
-                parent->parent = s_node;
-                if (s_node->parent != nullptr) {
-                    if (s_node->parent->left == parent) s_node->parent->left = s_node;
-                    if (s_node->parent->right == parent) s_node->parent->right = s_node;
-                }
-            } else if (s_node->parent->right == s_node) {
-                parent->right = s_node->right;
-                if (s_node->right != nullptr) s_node->right->parent = parent;
-                s_node->right = parent;
-                s_node->parent = parent->parent;
-                parent->parent = s_node;
-                if (s_node->parent != nullptr) {
-                    if (s_node->parent->left == parent) s_node->parent->left = s_node;
-                    else if (s_node->parent->right == parent) s_node->parent->right = s_node;
-                }
+        if (s_node->parent == nullptr) {
+            continue;
+        }
+        parent = s_node->parent;
+        if (s_node->parent->left == s_node) {
+            parent->left = s_node->left;
+            if (s_node->left != nullptr) s_node->left->parent = parent;
+            s_node->left = parent;
+            s_node->parent = parent->parent;
+            parent->parent = s_node;
+            if (s_node->parent != nullptr) {
+                if (s_node->parent->left == parent) s_node->parent->left = s_node;
+                if (s_node->parent->right == parent) s_node->parent->right = s_node;
             }
-            if (parent == root_symb) {
-                root_symb = s_node;
+        } else if (s_node->parent->right == s_node) {
+            parent->right = s_node->right;
+            if (s_node->right != nullptr) s_node->right->parent = parent;
+            s_node->right = parent;
+            s_node->parent = parent->parent;
+            parent->parent = s_node;
+            if (s_node->parent != nullptr) {
+                if (s_node->parent->left == parent) s_node->parent->left = s_node;
+                else if (s_node->parent->right == parent) s_node->parent->right = s_node;
             }
+        }
+        if (parent == root_symb) {
+            root_symb = s_node;
         }
     }
     vector<int> mas_coeff;

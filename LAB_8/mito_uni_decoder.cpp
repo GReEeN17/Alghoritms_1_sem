@@ -5,7 +5,6 @@ int mito_decoder() {
     int k;
     std::cin >> k;
     std::string mas[k];
-    std::string gap_string;
     for (int i = 0; i < k; i++) {
         std::cin >> mas[i];
     }

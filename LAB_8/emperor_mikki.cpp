@@ -32,7 +32,7 @@ void postorder_symb(symb_node* gap_node, vector<char>& mas_symb) {
     }
 }
 
-int main() {
+int emperor_mikki() {
     int n_coeff, q_1_coeff;
     cin >> n_coeff >> q_1_coeff;
     coeff_node* vertexes_coeff[n_coeff];

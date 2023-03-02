@@ -6,7 +6,7 @@ unsigned int grayen_code(unsigned int g) {
     return g ^ (g >> 1);
 }
 
-int main() {
+int grays_binary_code() {
     int n;
     cin >> n;
     unsigned short mas[n];

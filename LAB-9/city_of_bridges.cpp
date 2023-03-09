@@ -48,7 +48,7 @@ void Graph::reset_visited() {
     visited = {0};
 }
 
-int main() {
+int city_of_bridges() {
     int n, m;
     cin >> n >> m;
     Graph g(n);

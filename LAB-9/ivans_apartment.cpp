@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void adj_comp(vector<vector<char>> &matrix, int i, int j) {
+void adj_comp(char **matrix, int i, int j) {
     matrix[i][j] = '#';
     if (matrix[i + 1][j] == '.') {
         adj_comp(matrix, i + 1, j);
@@ -21,14 +21,17 @@ void adj_comp(vector<vector<char>> &matrix, int i, int j) {
 int main() {
     int n, m;
     cin >> n >> m;
-    vector<vector<char>> matrix;
+    //char matrix[n][m];
+    char **matrix = new char*[n];
+    for (int i = 0; i < n; ++i) {
+        matrix[i] = new char[m];
+    }
     int res = 0;
     string temp;
     for (int i = 0; i < n; i++) {
         cin >> temp;
-        matrix.emplace_back();
         for (int j = 0; j < m; j++) {
-            matrix[i].push_back(temp[j]);
+            matrix[i][j] = temp[j];
         }
     }
     for (int i = 0; i < n; i++) {

@@ -42,7 +42,7 @@ int GraphHotel::bfs(int s, int f) {
     return dist[f] == vertexes ? -1 : dist[f];
 }
 
-int main() {
+int hotel_graph() {
     int n, m;
     cin >> n >> m;
     GraphHotel g(n);

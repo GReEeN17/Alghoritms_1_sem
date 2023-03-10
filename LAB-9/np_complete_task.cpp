@@ -11,6 +11,8 @@ private:
 public:
     CT_graph(int v);
 
+    void clear();
+
     void add_edge(int dep, int dest);
 
     bool gamilton(int v, int v0);
@@ -24,6 +26,11 @@ CT_graph::CT_graph(int v) {
     }
     path = vector<int>(v, 0);
     c = vector<int>(v, -1);
+}
+
+void CT_graph::clear() {
+    path = vector<int>(vertexes, 0);
+    c = vector<int>(vertexes, -1);
 }
 
 void CT_graph::add_edge(int dep, int dest) {
@@ -47,7 +54,7 @@ bool CT_graph::gamilton(int v, int v0) {
     return q;
 }
 
-int main() {
+int np_complete_task() {
     int n, m;
     cin >> n >> m;
     CT_graph g(n);
@@ -56,7 +63,15 @@ int main() {
         cin >> temp_1 >> temp_2;
         g.add_edge(temp_1 - 1, temp_2 - 1);
     }
-    if (g.gamilton(1, 1)) {
+    bool flag = false;
+    for (int i = 0; i < n; i++) {
+        if (g.gamilton(1, i)) {
+            flag = true;
+            break;
+        }
+        g.clear();
+    }
+    if (flag) {
         cout << "YES";
     } else {
         cout << "NO";

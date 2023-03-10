@@ -18,7 +18,7 @@ void adj_comp(char **matrix, int i, int j) {
     }
 }
 
-int main() {
+int ivans_apartment() {
     int n, m;
     cin >> n >> m;
     //char matrix[n][m];

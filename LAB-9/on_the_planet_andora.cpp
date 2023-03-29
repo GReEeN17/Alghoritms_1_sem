@@ -55,7 +55,7 @@ void bfs_andora(bool ***visited, int ***dist, vector3D &start, vector3D &finish)
     }
 }
 
-int main() {
+int on_the_planet_andorra() {
     int k, e;
     cin >> k >> e;
     int x, y, z;

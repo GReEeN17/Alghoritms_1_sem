@@ -14,7 +14,7 @@ void dfs_hogwarts(int k, int v, vector<int>& comp, vector<bool>& visited, vector
     }
 }
 
-int main() {
+int hogwarts() {
     int n, m;
     cin >> n >> m;
     if (n == 0) {

@@ -27,7 +27,7 @@ void dfs_h(int v, int components, vector<vector<int>> &h, vector<int> &comp) {
     }
 }
 
-int main() {
+int scooters() {
     int n, m, q;
     cin >> n >> m >> q;
     vector<vector<int>> g(n);

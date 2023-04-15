@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int secrets_of_time_portal() {
     int n, m, k;
     cin >> n >> m >> k;
     int** graph = new int*[n];

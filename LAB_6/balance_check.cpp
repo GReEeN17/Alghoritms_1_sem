@@ -19,4 +19,5 @@ int balance_check() {
     for (int i = 0; i < n; i++) {
         cout << height[mas[i][2]] - height[mas[i][1]] << "\n";
     }
+    return 0;
 }

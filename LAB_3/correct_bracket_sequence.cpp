@@ -87,4 +87,5 @@ int correct_bracket_sequence() {
             cout << "NO" << "\n";
         }
     }
+    return 0;
 }

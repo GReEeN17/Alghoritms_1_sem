@@ -87,4 +87,5 @@ int priority_queue() {
             pr.decreaseKey(x, y);
         }
     }
+    return 0;
 }

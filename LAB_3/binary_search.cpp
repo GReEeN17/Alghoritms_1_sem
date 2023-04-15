@@ -67,4 +67,5 @@ int binary_search() {
         right_border = Right(mas, key, n);
         cout << left_border << ' ' << right_border << "\n";
     }
+    return 0;
 }

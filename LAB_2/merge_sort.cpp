@@ -46,5 +46,6 @@ int merge_sort() {
     for (int i = 0; i < n; i++) {
         std::cout << mas[i] << " ";
     }
+    return 0;
 };
 

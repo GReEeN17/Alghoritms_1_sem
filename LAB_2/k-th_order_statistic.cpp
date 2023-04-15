@@ -41,4 +41,5 @@ int kth_order_statistic() {
     }
     kth(mas, 0, n - 1, k - 1);
     cout << mas[k - 1];
+    return 0;
 }

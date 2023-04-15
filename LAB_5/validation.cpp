@@ -16,6 +16,7 @@ bool isBinTree (int mas[][3], int i, int min_elem, int max_elem) {
     } else if (mas[i][2] == 0) {
         return isBinTree(mas, mas[i][1] - 1, min_elem, mas[i][0] - 1);
     }
+    return false;
 }
 
 int validation() {

@@ -21,7 +21,7 @@ void top_sort(int n, vector<vector<int>> &graph, vector<bool> &visited, vector<i
     reverse(res.begin(), res.end());
 }
 
-int main() {
+int lost_condition() {
     int n, m;
     cin >> n >> m;
     vector<vector<int>> graph(n);

@@ -25,4 +25,5 @@ int tree_filling() {
     for (int i = 0; i < n; i++) {
         cout << mas[i][0] << " ";
     }
+    return 0;
 }

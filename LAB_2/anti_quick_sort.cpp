@@ -18,4 +18,5 @@ int anti_quick_sort() {
     for (int i = 0; i < n; i++) {
         cout << mas[i] << " ";
     }
+    return 0;
 }

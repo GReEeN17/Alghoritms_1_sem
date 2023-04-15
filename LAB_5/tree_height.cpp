@@ -36,4 +36,5 @@ int tree_height() {
         cout << res;
         return 0;
     }
+    return 0;
 }

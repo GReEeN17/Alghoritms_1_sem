@@ -67,4 +67,5 @@ int mito_decoder() {
         }
         std::cout << res << "\n";
     }
+    return 0;
 }

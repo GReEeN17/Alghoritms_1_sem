@@ -21,4 +21,5 @@ int grays_binary_code() {
         }
         cout << "\n";
     }
+    return 0;
 }

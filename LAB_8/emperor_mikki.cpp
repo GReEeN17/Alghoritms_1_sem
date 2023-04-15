@@ -142,4 +142,5 @@ int emperor_mikki() {
         string gap_line(mas_coeff[i], mas_symb[i]);
         cout << gap_line;
     }
+    return 0;
 }

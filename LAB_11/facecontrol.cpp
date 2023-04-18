@@ -79,7 +79,7 @@ void GraphFacecontrol::checkCycles() {
     cout << ((lenNegativeCycle < maxNegativeCycle || lenNegativeCycle == 0) ? "YES" : "NO") << "\n";
 }
 
-int main() {
+int facecontrol() {
     int N, k;
     cin >> N >> k;
     for (int i = 0; i < N; i++) {

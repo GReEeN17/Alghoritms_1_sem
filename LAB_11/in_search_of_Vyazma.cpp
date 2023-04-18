@@ -63,7 +63,7 @@ void GraphVyazma::checkDist(int q) {
     }
 }
 
-int main() {
+int inSearchOfVyazma() {
     int n, m, q, start;
     cin >> n >> m >> q >> start;
     GraphVyazma graph = GraphVyazma(n, m);

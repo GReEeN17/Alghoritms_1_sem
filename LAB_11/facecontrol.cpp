@@ -49,7 +49,7 @@ void GraphFacecontrol::fordBellman() {
     for (int i = 0; i < vertexes - 1; i++) {
         bool changed = false;
         for (Edge edg : edge) {
-            //if (dist[edg.source] == INT_MAX) continue;
+            if (dist[edg.source] == INT_MAX) continue;
             if (dist[edg.destination] > dist[edg.source] + edg.weight) {
                 dist[edg.destination] = dist[edg.source] + edg.weight;
                 previous[edg.destination] = edg.source;
@@ -64,7 +64,7 @@ void GraphFacecontrol::fordBellman() {
 void GraphFacecontrol::checkCycles() {
     int lenNegativeCycle = 0;
     for (Edge edg : edge) {
-        //if (dist[edg.source] == INT_MAX) continue;
+        if (dist[edg.source] == INT_MAX) continue;
         if (dist[edg.destination] > dist[edg.source] + edg.weight) {
             for (int i = 0; i < vertexes - 1; i++) {
                 edg.destination = previous[edg.destination];

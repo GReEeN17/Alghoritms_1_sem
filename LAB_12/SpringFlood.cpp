@@ -65,7 +65,7 @@ public:
     }
 };
 
-int main() {
+int springFlood1() {
     int N, M;
     cin >> N >> M;
     SpringFlood springFlood(N);

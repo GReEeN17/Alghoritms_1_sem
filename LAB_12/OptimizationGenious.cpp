@@ -68,7 +68,7 @@ public:
     }
 };
 
-int main() {
+int optimizationKing() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);

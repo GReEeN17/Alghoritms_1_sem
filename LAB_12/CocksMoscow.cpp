@@ -63,7 +63,7 @@ public:
     }
 };
 
-int main() {
+int cocksMoscow() {
     int N, M, Q;
     cin >> N >> M >> Q;
     CocksMoscow matching(N, M);

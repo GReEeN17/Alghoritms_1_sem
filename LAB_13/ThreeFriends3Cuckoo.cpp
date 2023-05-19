@@ -1,14 +1,17 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#define k 45
+#define k 40
+#define hashFirst 1000037
+#define hashSecond 1000039
+#define capacity 2000001
 
 int hash1(string key) {
     int res = 0;
     for (int i = 0; i < key.size(); i++) {
         res += key.at(i) * pow(k, i);
     }
-    return res % 10000001;
+    return res % hashFirst;
 }
 
 int hash2(string key) {
@@ -16,31 +19,37 @@ int hash2(string key) {
     for (int i = 0; i < key.size(); i++) {
         res += key.at(i) * pow(k, i);
     }
-    return res % 9999998;
+    return res % hashSecond;
 }
 
 struct Set {
-    vector<string> que;
-    vector<bool> ch;
+    vector<string> queFirst;
+    vector<bool> chFirst;
+    vector<string> queSecond;
+    vector<bool> chSecond;
 
     Set() {
-        que = vector<string>(10000009, "");
-        ch = vector<bool>(10000009, false);
+        queFirst = vector<string>(hashSecond, "");
+        chFirst = vector<bool>(hashSecond, false);
+        queSecond = vector<string>(hashSecond, "");
+        chSecond = vector<bool>(hashSecond, false);
     }
 
-    void insert(string n) {
+    void insertFirst(string n) {
         int index1 = hash1(n);
         int index2 = hash2(n);
         int count = 0;
-        while (count < 100000) {
-            if (que[index1] == "" && !ch[index1]) {
-                ch[index1] = true;
+        while (count < 10000) {
+            if (queFirst[index1].empty() && !chFirst[index1]) {
+                chFirst[index1] = true;
+                queFirst[index1] = n;
                 return;
-            } else if (que[index2] == "" && !ch[index2]) {
-                ch[index2] = true;
+            } else if (queFirst[index2].empty() && !chFirst[index2]) {
+                chFirst[index2] = true;
+                queFirst[index2] = n;
                 return;
             } else {
-                swap(que[index1], n);
+                swap(queFirst[index1], n);
                 index1 = hash1(n);
                 index2 = hash2(n);
             }
@@ -48,22 +57,45 @@ struct Set {
         }
     }
 
-    void remove(string n) {
+    bool containsFirst(string n) {
         int index1 = hash1(n);
         int index2 = hash2(n);
-        if (que[index1] == n) {
-            ch[index1] = false;
-        } else {
-            ch[index2] = false;
+        if (queFirst[index1] == n) {
+            return true;
+        } else if (queFirst[index2] == n) {
+            return true;
+        }
+        return false;
+    }
+
+    void insertSecond(string n) {
+        int index1 = hash1(n);
+        int index2 = hash2(n);
+        int count = 0;
+        while (count < 10000) {
+            if (queSecond[index1].empty() && !chSecond[index1]) {
+                chSecond[index1] = true;
+                queSecond[index1] = n;
+                return;
+            } else if (queSecond[index2].empty() && !chSecond[index2]) {
+                chSecond[index2] = true;
+                queSecond[index2] = n;
+                return;
+            } else {
+                swap(queSecond[index1], n);
+                index1 = hash1(n);
+                index2 = hash2(n);
+            }
+            count++;
         }
     }
 
-    bool contains(string n) {
+    bool containsSecond(string n) {
         int index1 = hash1(n);
         int index2 = hash2(n);
-        if (que[index1] == n) {
+        if (queSecond[index1] == n) {
             return true;
-        } else if (que[index2] == n) {
+        } else if (queSecond[index2] == n) {
             return true;
         }
         return false;
@@ -71,6 +103,49 @@ struct Set {
 };
 
 int main() {
-
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    int N;
+    cin >> N;
+    if (N == 0) {
+        cout << "0 0 0";
+        return 0;
+    }
+    Set set;
+    for (int i = 0; i < N; i++) {
+        string str;
+        cin >> str;
+        if (!set.containsFirst(str)) set.insertFirst(str);
+    }
+    int first = N * 3, second = N * 3, third = N * 3;
+    for (int i = 0; i < N; i++) {
+        string str;
+        cin >> str;
+        if (set.containsFirst(str)) {
+            first -= 2;
+            second -= 2;
+        }
+        if (!set.containsSecond(str)) {
+            set.insertSecond(str);
+        }
+    }
+    for (int i = 0; i < N; i++) {
+        string str;
+        cin >> str;
+        if (set.containsFirst(str) && set.containsSecond(str)) {
+            --first;
+            --second;
+            third -= 3;
+        } else if (set.containsSecond(str)) {
+            second -= 2;
+            third -= 2;
+        } else if (set.containsFirst(str)) {
+            first -= 2;
+            third -= 2;
+        }
+    }
+    cout << first << " " << second << " " << third;
+    return 0;
 }
 

@@ -29,7 +29,7 @@ public:
     }
 };
 
-int main() {
+int hogwarts14() {
     string N;
     cin >> N;
     Hogwarts14 hogwarts(N);

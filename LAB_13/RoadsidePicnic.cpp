@@ -10,7 +10,7 @@ int hashFuncRoadside(int key, int i) {
     return temp % capacity;
 }
 
-int main() {
+int roadsidePicnic() {
     int N;
     cin >> N;
     vector<int> hashTable(capacity, 0);
